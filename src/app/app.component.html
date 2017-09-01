@@ -1,9 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-<app-mymap></app-mymap>
+  <div class="page-header">
+    <h2>Maps Hold Coordinates<small>Example</small></h2>
+    <app-mymap></app-mymap>
+  </div>
+  <div class="page-header">
+    <h2>Getting Map Coordinates from a Mouse Click<small>Example</small></h2>
+    <app-mymap2 #map></app-mymap2>
+    Latitude: {{map.lat}}<br>
+    Longitude: {{map.lng}}
+  </div>
+
 </div>
 
 

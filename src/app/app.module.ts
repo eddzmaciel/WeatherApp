@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 //agregando el modulo pra el uso de mapas
 import {AgmCoreModule}from '@agm/core';
 
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MymapComponent } from './mymap/mymap.component';
+import { Mymap2Component } from './mymap2/mymap2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MymapComponent
+    MymapComponent,
+    Mymap2Component
   ],
   imports: [
     BrowserModule,

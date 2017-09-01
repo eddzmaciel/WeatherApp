@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+//agregamos la el objeto para que se obtengan las coordenadas con el mouse
+import {MouseEvent}from '@agm/core';
 @Component({
   selector: 'app-mymap',
   templateUrl: './mymap.component.html',
@@ -9,10 +10,9 @@ export class MymapComponent implements OnInit {
 	lat=55;
 	lng=26;
 	zoom=7;
-	
+
   constructor() { }
 
   ngOnInit() {
   }
-
 }
